@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Freelancer Center</title>
+</head>
+<body>
+  
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="index.css">
+      <title>Central de Freelancers</title>
+  </head>
+  <body>
+      <header>
+          <h1>Central de Freelancers</h1>
+      </header>
+  
+      <main class="freelancers-list">
+          <input type="radio" id="Country" name="Country">
+          <div id="options">
+            <option selected disabled value="">selected</option>
+            <input type="radio" name="Country" id="Country">ao</select>
+            <input type="radio" name="Country" id="Country">AR</select>
+          </div>
+      </main>
+  
+      <section id="developer-info">
+          <h2>Informações do Desenvolvedor</h2>
+          <p>
+              <strong>Valor Cobrado:</strong> R$ <span id="valor-cobrado">0.00</span><br>
+              <strong>Localização:</strong> <span id="localizacao">Cidade, País</span><br>
+              <strong>Horário Disponível:</strong> <span id="horario-disponivel">9:00 - 17:00</span>
+          </p>
+  
+          <h2>Conversor de Moeda</h2>
+          <label for="valor-em-reais">Valor em Reais:</label>
+          <input type="number" id="valor-em-reais" placeholder="Digite o valor em reais">
+          <button onclick="converterMoeda()">Converter</button>
+  
+          <p><strong>Conversão:</strong></p>
+          <p>
+              <strong>Dólares:</strong> $<span id="valor-em-dolares">0.00</span><br>
+              <strong>Libras:</strong> £<span id="valor-em-libras">0.00</span><br>
+              <strong>Euros:</strong> €<span id="valor-em-euros">0.00</span>
+          </p>
+      </section>
+  
+      <section id="developer-info">
+        <h2>Informações do Desenvolvedor</h2>
+        <p>
+            <strong>Valor Cobrado:</strong> R$ <span id="valor-cobrado">0.00</span><br>
+            <strong>Localização:</strong> <span id="localizacao">Cidade, País</span><br>
+            <strong>Horário Disponível:</strong> <span id="horario-disponivel">9:00 - 17:00</span>
+        </p>
+      
+        <h2>Conversor de Moeda</h2>
+        <label for="valor-em-reais">Valor em Reais:</label>
+        <input type="number" id="valor-em-reais" placeholder="Digite o valor em reais">
+        <button onclick="converterMoeda()">Converter</button>
+        <p><strong>Conversão:</strong></p>
+        <p>
+            <strong>Dólares:</strong> $<span id="valor-em-dolares">0.00</span><br>
+            <strong>Libras:</strong> £<span id="valor-em-libras">0.00</span><br>
+            <strong>Euros:</strong> €<span id="valor-em-euros">0.00</span>
+        </p>
+    </section>
+
+      <script src="index.js"></script>
+  </body>
+  </html>  
+</body>
+</html>
